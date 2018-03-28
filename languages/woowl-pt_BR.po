@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WOO Waiting List\n"
-"POT-Creation-Date: 2018-03-28 09:29-0300\n"
-"PO-Revision-Date: 2018-03-28 09:30-0300\n"
+"POT-Creation-Date: 2018-03-28 11:00-0300\n"
+"PO-Revision-Date: 2018-03-28 11:00-0300\n"
 "Last-Translator: \n"
 "Language-Team: Fabio Gonzaga\n"
 "Language: pt_BR\n"
@@ -47,8 +47,8 @@ msgid "Notify me when available."
 msgstr "Avise-me quando estiver disponível."
 
 #: templates/woowl-page-options.php:34
-msgid "WOO Waiting List"
-msgstr "WOO Lista de Espera"
+msgid "Waiting List"
+msgstr "Lista de Espera"
 
 #: templates/woowl-page-options.php:42
 msgid "Show form when product is out of stock?"
@@ -77,11 +77,11 @@ msgstr ""
 "shortcode em sua página, ficando livre para adicionar condições ou não "
 "diretamente no código em sua página de produto."
 
-#: templates/woowl-page-options.php:89
+#: templates/woowl-page-options.php:90
 msgid "Usage"
 msgstr "Modo de uso"
 
-#: templates/woowl-page-options.php:90
+#: templates/woowl-page-options.php:91
 msgid "Add this shortcode in your product page:"
 msgstr "Adicione este shortcode em sua página de produto:"
 
@@ -113,8 +113,9 @@ msgstr ""
 "registrou, pedimos que você desconsidere esta mensagem."
 
 #: templates/woowl-product-metabox.php:59
+#, fuzzy
 msgid " sent emails from "
-msgstr " emails enviados de "
+msgstr " email-s enviados de "
 
 #: templates/woowl-product-metabox.php:68
 msgid "List deleted successfully."
