@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WOO Waiting List\n"
-"POT-Creation-Date: 2018-03-27 17:19-0300\n"
-"PO-Revision-Date: 2018-03-27 17:20-0300\n"
+"POT-Creation-Date: 2018-03-28 09:29-0300\n"
+"PO-Revision-Date: 2018-03-28 09:30-0300\n"
 "Last-Translator: \n"
 "Language-Team: Fabio Gonzaga\n"
 "Language: pt_BR\n"
@@ -77,6 +77,14 @@ msgstr ""
 "shortcode em sua página, ficando livre para adicionar condições ou não "
 "diretamente no código em sua página de produto."
 
+#: templates/woowl-page-options.php:89
+msgid "Usage"
+msgstr "Modo de uso"
+
+#: templates/woowl-page-options.php:90
+msgid "Add this shortcode in your product page:"
+msgstr "Adicione este shortcode em sua página de produto:"
+
 #: templates/woowl-product-metabox.php:35
 msgid " is avaliable now!"
 msgstr " está disponível agora!"
@@ -106,7 +114,7 @@ msgstr ""
 
 #: templates/woowl-product-metabox.php:59
 msgid " sent emails from "
-msgstr " emails enviados de"
+msgstr " emails enviados de "
 
 #: templates/woowl-product-metabox.php:68
 msgid "List deleted successfully."
