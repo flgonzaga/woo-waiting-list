@@ -84,13 +84,14 @@ $meta_keys = $wpdb->get_results($querystr, OBJECT);
 			</table>
 			<?php */ ?>
 			<?php submit_button(); ?>
-
 		</form>
-		<h4><?php echo __('Usage', 'woowl'); ?></h4>
-		<p><?php echo __('Add this shortcode in your product page:', 'woowl'); ?></p>
-		<blockquote>
-			echo do_shortcode('[woo_waiting_list product_id=' . $product->get_id() . ']');
-		</blockquote>
-	</div>	
+	</div><!-- /.welcome-panel -->
+	
+	<h4><?php echo __('Usage', 'woowl'); ?></h4>
+	<p><?php echo __('Add this shortcode in your product page:', 'woowl'); ?></p>
+	<blockquote>
+		echo do_shortcode('[woo_waiting_list product_id=' . $product->get_id() . ']');
+	</blockquote>
+	
 </div><!-- /.wrap -->
 <?php include( ABSPATH . 'wp-admin/admin-footer.php' );
