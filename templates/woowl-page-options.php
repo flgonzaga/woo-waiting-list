@@ -31,7 +31,7 @@ $meta_keys = $wpdb->get_results($querystr, OBJECT);
 ?>
 <div class="wrap">
     
-	<h1><?php _e( 'WOO Waiting List', 'woowl' ); ?></h1>
+	<h1><?php echo 'WOO ' . __( 'Waiting List', 'woowl' ); ?></h1>
 
 	<div class="welcome-panel">
 		
