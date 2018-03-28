@@ -1,0 +1,145 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WOO Waiting List\n"
+"POT-Creation-Date: 2018-03-27 17:19-0300\n"
+"PO-Revision-Date: 2018-03-27 17:20-0300\n"
+"Last-Translator: \n"
+"Language-Team: Fabio Gonzaga\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: inc\n"
+"X-Poedit-SearchPath-1: templates\n"
+"X-Poedit-SearchPath-2: assets\n"
+
+#: inc/class-woowl-options.php:26 inc/class-woowl-options.php:27
+msgid "Settings"
+msgstr "Configurações"
+
+#: inc/class-woowl.php:124
+msgid "<span style=\"color:red;\">You must be logged.</span>"
+msgstr "<span style=\"color:red;\">Você precisa estar logado.</span>"
+
+#: inc/woowl-functions.php:19
+msgid "Enable Logging"
+msgstr "Habilitar log"
+
+#: inc/woowl-functions.php:20
+msgid "Enable the logging of errors."
+msgstr "Habilitar o log de erros."
+
+#: inc/woowl-functions.php:28
+#, php-format
+msgid "%1$sView Log%2$s"
+msgstr "%1$sVisualizar Log%2$s"
+
+#: inc/woowl-functions.php:32
+msgid "Debug Log"
+msgstr "Debug Log"
+
+#: templates/woowl-frontend-form.php:18
+msgid "Notify me when available."
+msgstr "Avise-me quando estiver disponível."
+
+#: templates/woowl-page-options.php:34
+msgid "WOO Waiting List"
+msgstr "WOO Lista de Espera"
+
+#: templates/woowl-page-options.php:42
+msgid "Show form when product is out of stock?"
+msgstr "Exibir formulário quando o produto estiver fora de estoque?"
+
+#: templates/woowl-page-options.php:43 templates/woowl-page-options.php:48
+msgid "Yes"
+msgstr "Sim"
+
+#: templates/woowl-page-options.php:44 templates/woowl-page-options.php:49
+msgid "No"
+msgstr "Não"
+
+#: templates/woowl-page-options.php:46
+msgid "Show form using a custom code in my product page?"
+msgstr ""
+"Exibir formulário usando um código personalizado na minha página de produtos?"
+
+#: templates/woowl-page-options.php:47
+msgid ""
+"When selected \"Yes\" the form view happens as soon as you add the shortcode "
+"to your page, being free to add display conditions or not directly in the "
+"code of your product page."
+msgstr ""
+"Quando selecionado \"Sim\" o formulário será exibido assim que adicionado o "
+"shortcode em sua página, ficando livre para adicionar condições ou não "
+"diretamente no código em sua página de produto."
+
+#: templates/woowl-product-metabox.php:35
+msgid " is avaliable now!"
+msgstr " está disponível agora!"
+
+#: templates/woowl-product-metabox.php:37
+msgid "Hello"
+msgstr "Olá"
+
+#: templates/woowl-product-metabox.php:38
+#, php-format
+msgid ""
+"This is an up-to-date message to inform you that the product \"%1$s\" is "
+"already available in our stock."
+msgstr ""
+"Esta é uma mensagem automática para informar que o produto \"%1$s\" já está "
+"disponível em nosso estoque."
+
+#: templates/woowl-product-metabox.php:39
+msgid ""
+"You are receiving this notification because your email address has been "
+"added to the waiting list for this product. If you do not know if you have "
+"registered, we ask that you disregard this message."
+msgstr ""
+"Você está recebendo esta notificação porque seu endereço de e-mail foi "
+"adicionado à lista de espera deste produto. Se você não sabe se você se "
+"registrou, pedimos que você desconsidere esta mensagem."
+
+#: templates/woowl-product-metabox.php:59
+msgid " sent emails from "
+msgstr " emails enviados de"
+
+#: templates/woowl-product-metabox.php:68
+msgid "List deleted successfully."
+msgstr "Lista excluída com sucesso."
+
+#: templates/woowl-product-metabox.php:79
+msgid "Customers waiting this product"
+msgstr "Clientes aguardando este produto"
+
+#: templates/woowl-product-metabox.php:82
+msgid "Do you confirm send emails to all the clients on this list?"
+msgstr "Confirma enviar e-mails para todos os clientes desta lista?"
+
+#: templates/woowl-product-metabox.php:82
+msgid "Send e-mail for all"
+msgstr "Enviar e-mail para todos"
+
+#: templates/woowl-product-metabox.php:84
+msgid "Do you confirm the deletion of all emails from the waiting list below?"
+msgstr "Confirma excluir todos os e-mails da lista de espera abaixo?"
+
+#: templates/woowl-product-metabox.php:84
+msgid "Clear list"
+msgstr "Limpar lista"
+
+#: templates/woowl-product-metabox.php:94
+msgid "Do you confirm that you remove this client from the waiting list?"
+msgstr "Confirma excluir este cliente da lista de espera?"
+
+#: templates/woowl-product-metabox.php:94
+msgid "Remove from list"
+msgstr "Excluir da lista"
+
+#: templates/woowl-product-metabox.php:101
+msgid "No one on the waiting list for this product at this time."
+msgstr "Ninguém na lista de espera deste produto no momento."
