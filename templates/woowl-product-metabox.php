@@ -42,7 +42,7 @@ if ($woowl_action == 'woowl_send_email')
 	if (is_array($woowl_cf_array) && !empty($woowl_cf_array))
 	{
 		$counter = 0;
-		$headers = array('From: fabio@visualy.com.br <Fabio Gonzaga>');
+		$headers = array('From: ' . get_option( 'admin_email' ));
 		add_filter('wp_mail_content_type', create_function('', 'return "text/html";'));
 		foreach ($woowl_cf_array as $key) {
 			$woowl_get_user = get_user_by('email', $key);
