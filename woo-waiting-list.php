@@ -1,7 +1,7 @@
 <?php
 /*
 * Plugin Name: WOO Waiting List
-* Plugin URI: 
+* Plugin URI: http://gist.github.com/flgonzaga/woo-waiting-list
 * Description: Add Waiting List to WooCommerce
 * Author: Fabio Gonzaga
 * Author URI: http://gist.github.com/flgonzaga
