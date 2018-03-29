@@ -5,9 +5,9 @@ You can show the option when the product is "out of stock" or "free" using a cus
 ## Requirements and legal informations
 Contributors: Fabio Gonzaga  
 Tags: woocommerce, waiting list  
-Requires at least: Wordpress 4.9.4, WooCommerce 3.3.4
-Tested up to: Wordpress 4.9.4, WooCommerce 3.3.4
-Requires PHP: 5.6 or higher 
+Requires at least: Wordpress 4.9.4, WooCommerce 3.3.4  
+Tested up to: Wordpress 4.9.4, WooCommerce 3.3.4  
+Requires PHP: 5.6 or higher  
 License: GPLv3 or later License  
 URI: http://www.gnu.org/licenses/gpl-3.0.html  
 
