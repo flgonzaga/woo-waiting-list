@@ -29,4 +29,4 @@ Available in English, Portuguese (Brazil)
 ## Other informations
 Contributions are welcome.  
 Future features:
-- Allow show the option when a post meta have a specific value (started)  
+- Allow show the option when a postmeta have a specific value (started)  
