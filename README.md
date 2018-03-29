@@ -12,11 +12,11 @@ License: GPLv3 or later License
 URI: http://www.gnu.org/licenses/gpl-3.0.html  
 
 ## Instalation
-Download and upload the folder woo-waiting-list to wp-content/plugins 
+Download and upload the folder woo-waiting-list to wp-content/plugins  
 
 ## Usage 
 Add this shortcode in your product page:  
-echo do_shortcode('[woo_waiting_list product_id=' . $product->get_id() . ']');
+`echo do_shortcode('[woo_waiting_list product_id=' . $product->get_id() . ']');`  
 
 ## Languages
 Available in English, Portuguese (Brazil)
