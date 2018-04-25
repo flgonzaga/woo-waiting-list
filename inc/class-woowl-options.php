@@ -39,24 +39,6 @@ class WOOWLPageOptions
         // Set class property
         $this->options = get_option( 'woowl_fields' );
         include WOOWL_PATH . 'templates/woowl-page-options.php';
-        /*
-        ?>
-        <div class="wrap">
-            <h1>Settings</h1>
-            <div class="welcome-panel">
-                <form method="post" action="options.php">
-                <?php
-                    // This prints out all hidden setting fields
-                    settings_fields( 'woowl_option_group' );
-                    do_settings_sections( 'woowl-page-options' );
-                    submit_button();
-                ?>
-                </form>
-            </div>
-            <!-- /.welcome-panel -->
-        </div>
-        <?php
-        */
     }
 
     /**

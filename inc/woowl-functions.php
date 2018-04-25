@@ -36,7 +36,6 @@ $form_fields['wc_woowl_debug'] = array(
 	'default'     => 'no'
 );
 
-
 /**
 * Register plugin menu
 */
@@ -44,7 +43,7 @@ if ( ! function_exists('woowl_register_plugin_menu') )
 {
 	function woowl_register_plugin_menu() 
 	{
-		// add_menu_page( __('WOO Waiting List', 'woowl'), __('WOO Waiting List', 'woowl'), 'manage_options', 'woowl_menu_settings', 'woowl_create_dashboard', 'dashicons-tickets-alt', 20);
+		add_submenu_page( 'edit.php?post_type=product', __('Products Awaited', 'woowl'), __('Products Awaited', 'woowl'), 'publish_posts', 'woowl_awaited', 'woowl_products_awaited' );
 	}
 	add_action( 'admin_menu', 'woowl_register_plugin_menu' );
 }
@@ -52,11 +51,11 @@ if ( ! function_exists('woowl_register_plugin_menu') )
 /**
 * Create Plugin Dashboard
 */
-if ( ! function_exists('woowl_create_dashboard') ) 
+if ( ! function_exists('woowl_products_awaited') ) 
 {
-	function woowl_create_dashboard()
+	function woowl_products_awaited()
 	{
-		// include ( WOOWL_PATH . 'templates/woowl-dashboard.php' );
+		include ( WOOWL_PATH . 'templates/woowl-products-awaited.php' );
 	}
 }
 
