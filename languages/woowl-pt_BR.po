@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WOO Waiting List\n"
-"POT-Creation-Date: 2018-03-28 11:00-0300\n"
-"PO-Revision-Date: 2018-03-28 11:00-0300\n"
+"POT-Creation-Date: 2018-04-25 16:32-0300\n"
+"PO-Revision-Date: 2018-04-25 16:33-0300\n"
 "Last-Translator: \n"
 "Language-Team: Fabio Gonzaga\n"
 "Language: pt_BR\n"
@@ -41,6 +41,10 @@ msgstr "%1$sVisualizar Log%2$s"
 #: inc/woowl-functions.php:32
 msgid "Debug Log"
 msgstr "Debug Log"
+
+#: inc/woowl-functions.php:46 templates/woowl-products-awaited.php:18
+msgid "Products Awaited"
+msgstr "Produtos Aguardados"
 
 #: templates/woowl-frontend-form.php:18
 msgid "Notify me when available."
@@ -152,3 +156,18 @@ msgstr "Excluir da lista"
 #: templates/woowl-product-metabox.php:101
 msgid "No one on the waiting list for this product at this time."
 msgstr "Ninguém na lista de espera deste produto no momento."
+
+#: templates/woowl-products-awaited.php:71
+msgid "Product"
+msgstr "Produto"
+
+#: templates/woowl-products-awaited.php:72
+#, fuzzy
+#| msgid "Customers waiting this product"
+msgid "Customers Waiting"
+msgstr "Clientes aguardando este produto"
+
+#: templates/woowl-products-awaited.php:73
+#: templates/woowl-products-awaited.php:87
+msgid "Open"
+msgstr "Abrir"
