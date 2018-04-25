@@ -5,7 +5,7 @@
 * Description: Add Waiting List to WooCommerce
 * Author: Fabio Gonzaga
 * Author URI: http://gist.github.com/flgonzaga
-* Version: 1.0
+* Version: 1.0.1
 * Text Domain: woowl
 * 
 * WC requires at least: 3.3
