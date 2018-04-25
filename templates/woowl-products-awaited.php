@@ -28,10 +28,15 @@ if ( ! defined( 'ABSPATH' ) )
 			'order'				=> 'ASC',
 			'paged'				=> $paged,
 			'meta_query' => array (
+						        'relation' => 'AND',
 							    array (
-							        //'relation' => 'OR',
 							        'key' 		=> 'woowl_waiting_list', //The field to check.
 							        'value' 	=> '', //The value of the field.
+							        'compare' 	=> '!=', //Conditional statement used on the value.
+							    ),
+							    array (
+							        'key' 		=> 'woowl_waiting_list', //The field to check.
+							        'value' 	=> '[]', //The value of the field.
 							        'compare' 	=> '!=', //Conditional statement used on the value.
 							    ),
 							),
